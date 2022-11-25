@@ -325,6 +325,69 @@ nav{
     color: white;
 }
 
+/*footer*/
+
+.footerct{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.socialmedia{
+    margin-left: 2rem;
+    
+}
+.socialmedia h1{
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.icons a{
+    font-size: 18px;
+    color:grey   
+}
+
+.footermenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+
+.menumain a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+}
+.submenu{
+    padding-top: 1rem;
+}
+.submenu p{
+    font-size: 16px;
+    color: gray;
+    margin:0;
+line-height: 25px;
+
+}
+
+
 
 
 @media (min-width: 768px){
