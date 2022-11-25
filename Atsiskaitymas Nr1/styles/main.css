@@ -264,6 +264,62 @@ nav{
     
 }
 
+/*signUp*/
+
+#SignUp{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:3rem;
+    margin-left: 2rem;
+}
+.SignUpText{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.SignUpText h3{
+    color: rgb(230, 21, 195);
+        
+}
+
+.SignUpText h1{
+    font-size: 50px;
+    margin: 0;
+
+}
+
+.SignUpText p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: grey;
+}
+
+.SignUpText button{
+    height: 75px;
+    width: 190px;
+    border: solid 3px rgb(230, 21, 195);
+    border-radius: 40px 40px;
+    font-size: 20px;
+    font-weight: bolder;   
+}
+
+.SignUpText button:hover{
+    background-color: rgb(230, 21, 195);
+    color: white;
+}
+
+.SignUpImg img{
+    height: 467px;
+    
+
+}
+
+
 
 @media (min-width: 768px){
     .mmenu{
