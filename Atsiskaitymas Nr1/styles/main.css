@@ -1,0 +1,76 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body:{
+    margin: 0 auto;
+}
+
+
+header{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 36px;
+    width: auto;
+}
+
+.logo{
+    width: 200px;
+    height: 36px;
+    display: flex;
+    margin: 1rem;
+   
+    
+}
+    
+.logo img{
+        width: 36px;
+        height: 36px;
+}
+
+.logo h1{
+        color: black;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+     }
+.mmenu i{
+    display: flex;
+    margin:1rem;
+    font-size: 36px;
+    
+}     
+
+
+nav{
+    display: none;
+}
+
+@media (min-width: 1024px){
+    .mmenu{
+        display: none;
+    }
+   
+    .menudesktop {
+        display: flex;
+        padding-top: 1.2rem;
+      }
+      .menudesktop li {
+        display: inline;
+        list-style-type: none;
+      }
+      .menudesktop a {
+        text-decoration: none;
+        padding: 1rem;
+        color: grey;
+        font-weight: bold;
+        font-size: 1rem;
+        font-weight: lighter;
+      }
+      .menudesktop :hover {
+        color: pink;
+      }
+}
