@@ -130,6 +130,33 @@ nav{
     margin: 0;
 }
 
+/*press*/
+
+#press{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.presscontent{
+    display: flex;
+    justify-content: center;
+}
+.presscontent h1{
+    color: gray;
+    font-size: 30px;
+    margin:20px ;
+
+}
+.presscontent img{
+    height:70px;
+    width: 100%;
+}
+#press :nth-child(3){
+    display: none;
+}
+
 
 
 @media (min-width: 768px){
