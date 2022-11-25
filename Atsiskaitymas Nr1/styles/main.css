@@ -1,10 +1,8 @@
-
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-body:{
-    margin: 0 auto;
-}
+
 
  /**header**/
 header{
@@ -107,8 +105,30 @@ nav{
 
 /**upsell**/
 
+#upsell{
+    height:330px;
+    width: 100%;
+    background: black linear-gradient(45deg, #ff5285,#ff4c42,#fd823f, #99e6a6) ;
+}
 
+.upsellText{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
 
+.upsellText h1{
+    font-size: 43px;
+    padding-top: 80px;
+   
+    
+}
+
+.upsellText p{
+    font-size: 20px;
+    margin: 0;
+}
 
 
 
