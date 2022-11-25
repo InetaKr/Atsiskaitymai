@@ -138,6 +138,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 60px;
+   
 }
 .presscontent{
     display: flex;
@@ -157,6 +158,111 @@ nav{
     display: none;
 }
 
+/*showcase*/
+
+.showcaseTitle{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+ 
+}
+
+.showcaseTitle h1{
+    font-size: 43px;
+    line-height: 48px;
+    margin-left:2rem;
+
+}
+.showcaseTitle p{
+    font-size: 20px;
+    color: grey;
+    margin-left:2rem;
+}
+ 
+.showcaseCards{
+    display: flex;
+    flex-direction:row;
+    align-content: space-between;
+    gap: 30px;
+    overflow-y: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+ 
+}
+
+
+.showcaseBox{
+    position: relative;
+    background-color: white;
+    margin-left: 2rem;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    height: 400px;
+    width: 280px;
+    border: transparent;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(223, 221, 221);
+}
+.showcaseimg{
+       height: 60%;
+    }
+    
+ .showcaseimg img{
+        height: 100%;
+        width: 100%;
+        
+    }
+   
+.showcaseInfo{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        margin-left: 0;
+        padding: 0;
+       
+    }
+
+.showcaseIn1{
+    margin-left: 0.5rem;
+}    
+.showcaseIn1 h3{
+    font-size: 12px;
+    color: #fd823f;
+}  
+
+.showcaseIn1 h1{
+    font-size: 20px;
+}
+
+.showcaseIn1 h4{
+    font-size: 18px;
+    color: gray;
+}
+
+.showcaseIn2 h3{
+    font-size: 12px;
+    color: grey;
+}
+.showcaseIn2 img{
+    width: 24px;
+    height: 30px;
+}
+.showcaseIn2 h1{
+    font-size:20px;
+    margin:0;
+    
+
+}
+.showcasein2{
+    display:flex;
+    padding-right: 5px;
+    
+}
+
+.showcaseIn2 h4{
+    font-size: 16px;
+    color:gray;
+    
+}
 
 
 @media (min-width: 768px){
