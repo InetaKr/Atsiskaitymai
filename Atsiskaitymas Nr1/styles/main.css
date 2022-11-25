@@ -138,21 +138,24 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 60px;
+    margin-left: 2rem;
    
 }
 .presscontent{
     display: flex;
     justify-content: center;
+    width: 140px;
 }
 .presscontent h1{
     color: gray;
-    font-size: 30px;
+    font-size: 25px;
+    width: 70%;
     margin:20px ;
 
 }
 .presscontent img{
     height:70px;
-    width: 100%;
+    width: 40%;
 }
 #press :nth-child(3){
     display: none;
@@ -369,6 +372,7 @@ nav{
     flex-direction: column;
     padding-top: 2rem;
     margin-left: 2rem;
+    width: 100px;
 }
 
 .menumain a{
@@ -383,9 +387,25 @@ nav{
     font-size: 16px;
     color: gray;
     margin:0;
-line-height: 25px;
+    line-height: 25px;
+}
+.footercopy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footercopy p{
+    font-size: 18px;
+    color: grey;
+    margin: 2rem;
 
 }
+.launch {
+    display:none;
+}
+
+
 
 
 
