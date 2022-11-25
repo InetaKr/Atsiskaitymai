@@ -19,9 +19,7 @@ header{
     width: 200px;
     height: 36px;
     display: flex;
-    margin: 1rem;
-   
-    
+    margin: 1rem; 
 }
     
 .logo img{
@@ -34,14 +32,13 @@ header{
         font-size: 30px;
         display: flex;
         align-items: center;
-     }
+}
+
 .mmenu i{
     display: flex;
     margin:1rem;
-    font-size: 36px;
-    
+    font-size: 36px; 
 }     
-
 
 nav{
     display: none;
@@ -58,21 +55,20 @@ nav{
     padding-top:3rem;
     margin-left: 2rem;
 }
+
 .heroText{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-
 }
+
 .heroText h3{
-    color: rgb(230, 21, 195);
-        
+    color: rgb(230, 21, 195);      
 }
 
 .heroText h1{
     font-size: 40px;
     margin: 0;
-
 }
 
 .heroText p{
@@ -107,16 +103,15 @@ nav{
     grid-area: 1 / 2 / 3 / 4;
     background: url(../images/pinkthing.png) no-repeat;
     background-size: cover;
-    z-index: 1;
-    
+    z-index: 1; 
 }
+
 .heroImg >:first-child img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     margin-left: 3rem;
- }
-
+}
 
 .heroImg :nth-child(2){
     grid-area: 1 / 2 / 2 / 4;
@@ -132,10 +127,6 @@ nav{
     filter:blur(55px)
 }
 
-
-
-
-
 /**upsell**/
 
 #upsell{
@@ -147,15 +138,12 @@ nav{
 .upsellText{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    
+    margin-left: 50px;  
 }
 
 .upsellText h1{
     font-size: 43px;
-    padding-top: 80px;
-   
-    
+    padding-top: 80px;   
 }
 
 .upsellText p{
@@ -171,25 +159,27 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 60px;
-    margin-left: 2rem;
-   
+    margin-left: 2rem;  
 }
+
 .presscontent{
     display: flex;
     justify-content: center;
     width: 140px;
 }
+
 .presscontent h1{
     color: gray;
     font-size: 25px;
     width: 70%;
     margin:20px ;
-
 }
+
 .presscontent img{
     height:70px;
     width: 40%;
 }
+
 #press :nth-child(3){
     display: none;
 }
@@ -204,15 +194,14 @@ nav{
     display: flex;
     flex-direction: column;
     padding-top: 60px;
- 
 }
 
 .showcaseTitle h1{
     font-size: 43px;
     line-height: 48px;
     margin-left:2rem;
-
 }
+
 .showcaseTitle p{
     font-size: 20px;
     color: grey;
@@ -246,18 +235,16 @@ nav{
     
  .showcaseImg img{
         width: 100%;
-        border-radius: 20px 20px 0px 0px ;
-        
-    }
+        border-radius: 20px 20px 0px 0px ;      
+}
    
 .showcaseInfo{
         display: flex;
         justify-content: space-between;
         padding-top: 20px;
         margin-left: 0;
-        padding: 0;
-       
-    }
+        padding: 0;     
+}
 
 .showcaseIn1{
     margin-left: 0.5rem;
@@ -287,19 +274,16 @@ nav{
 .showcaseIn2 h1{
     font-size:20px;
     margin:0;
-    
-
 }
+
 .showcasein2{
     display:flex;
-    padding-right: 5px;
-    
+    padding-right: 5px;  
 }
 
 .showcaseIn2 h4{
     font-size: 16px;
-    color:gray;
-    
+    color:gray; 
 }
 
 /*signUp*/
@@ -316,26 +300,27 @@ nav{
 hr{
     border: 1px solid rgb(199, 197, 197);
 }
+
 #SignUp :nth-child(2){
     grid-area: 2 / 2 / 5 / 4;
    
- }
+}
+
  #SignUp > :nth-child(2) img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     margin-left: 3rem;
- }
+}
 
- 
 .SignUpText{
     grid-area: 1 / 1 / 5 / 3;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     margin-left: 2rem;
-
 }
+
 .SignUpText h3{
     color: rgb(230, 21, 195);
         
@@ -344,7 +329,6 @@ hr{
 .SignUpText h1{
     font-size: 50px;
     margin: 0;
-
 }
 
 .SignUpText p{
@@ -372,28 +356,30 @@ hr{
 
 .footerct{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .logo{
     display: flex;
     justify-content: space-between;
 }
+
 .socialmedia{
-    margin-left: 2rem;
-    
+    margin-left: 2rem;   
 }
+
 .socialmedia h1{
     font-size: 20px;
     color: gray;
     font-weight: lighter;
 }
+
 .icons{
     display: flex;
     gap: 10px;
     padding-top: 10px;
 }
+
 .icons a{
     font-size: 18px;
     color:grey   
@@ -445,11 +431,6 @@ hr{
     display:none;
 }
 
-
-
-
-
-
 @media (min-width: 768px){
     .mmenu{
         display: none;
@@ -458,22 +439,26 @@ hr{
     .menudesktop {
         display: flex;
         padding-top: 1.2rem;
-      }
-      .menudesktop li {
+    }
+
+    .menudesktop li {
         display: inline;
         list-style-type: none;
-      }
-      .menudesktop a {
+    }
+
+    .menudesktop a {
         text-decoration: none;
         padding: 1rem;
         color: grey;
         font-weight: bold;
         font-size: 1rem;
         font-weight: lighter;
-      }
-      .menudesktop :hover {
+    }
+      
+    .menudesktop :hover {
         color: rgb(230, 21, 195);
-      }
+    }
+
     .heroText h1{
         font-size: 70px;
     } 
@@ -488,6 +473,7 @@ hr{
     #press :nth-child(3){
         display:flex;
     }
+
     .showcaseCards{
         overflow-x: hidden;
     }
@@ -496,15 +482,14 @@ hr{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
     }
 
     #SignUp > :nth-child(2) img{
         height: 500px;
         width: 100%;
         object-fit: contain;
-    
     }
+    
     .SignUpText{
         display: flex;
         flex-direction: column;
@@ -523,3 +508,4 @@ hr{
     .launch{
         display: flex;
     }
+}    
