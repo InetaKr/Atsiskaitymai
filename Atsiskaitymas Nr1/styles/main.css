@@ -98,6 +98,7 @@ nav{
 
 .heroImg{
     height: 300px;
+    margin-top: 2rem;
     display: grid;
     grid-template: 150px 150px/ 70px 150px 70px 70px;
 }
@@ -195,6 +196,10 @@ nav{
 
 /*showcase*/
 
+#showcase{
+    margin-bottom: 50px;
+}
+
 .showcaseTitle{
     display: flex;
     flex-direction: column;
@@ -219,10 +224,8 @@ nav{
     flex-direction:row;
     align-content: space-between;
     gap: 30px;
-    overflow-y: scroll;
-    overflow-y: hidden;
+    overflow-x: scroll;
     white-space: nowrap;
- 
 }
 
 
@@ -231,19 +234,19 @@ nav{
     background-color: white;
     margin-left: 2rem;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
-    height: 400px;
-    width: 280px;
     border: transparent;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(223, 221, 221);
 }
-.showcaseimg{
-       height: 60%;
-    }
+
+.showcaseImg{
+    width: 300px;
+    height: 300px;
+}
     
- .showcaseimg img{
-        height: 100%;
+ .showcaseImg img{
         width: 100%;
+        border-radius: 20px 20px 0px 0px ;
         
     }
    
@@ -301,6 +304,7 @@ nav{
 
 /*signUp*/
 
+
 #SignUp{
     height: 650px;
     width: 100%;
@@ -308,6 +312,10 @@ nav{
     display: grid;
     grid-template: 80px  80px 245px 160px/ 160px 80px 160px;
 }   
+
+#SignUp hr{
+    border: 1px solid rgb(199, 197, 197);
+}
 #SignUp :nth-child(2){
     grid-area: 2 / 2 / 5 / 4;
    
@@ -466,4 +474,52 @@ nav{
       .menudesktop :hover {
         color: rgb(230, 21, 195);
       }
-}
+    .heroText h1{
+        font-size: 70px;
+    } 
+    
+    #upsell{
+        height: 300px;
+        width: 90%;
+        margin: 2rem;
+        border-radius: 20px;
+    }
+
+    #press :nth-child(3){
+        display:flex;
+    }
+    .showcaseCards{
+        overflow-x: hidden;
+    }
+
+    #SignUp{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    #SignUp > :nth-child(2) img{
+        height: 500px;
+        width: 100%;
+        object-fit: contain;
+    
+    }
+    .SignUpText{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        gap: 50px;
+        margin: 0 auto;
+        margin-left: 2rem; 
+    }
+
+    .footercontent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .launch{
+        display: flex;
+    }
